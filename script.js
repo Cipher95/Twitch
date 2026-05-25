@@ -18,7 +18,7 @@
                 
             `
         },
-       		others: {
+       		streams: {
             title: "Live Streams",
             image: "Twitch-1440.webp",
             intro: ``,
@@ -27,46 +27,46 @@
                 {
                     id: 'Live_Stream_1',
                     title: 'Live Stream (20XXpo)',
-                    image: 'others/Twitch-1440.webp',
+                    image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=20xxpo&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/20xxpo/chat?parent=cipher95.github.io"
-        height="500"
-        width="100%">
-</iframe>
+        				height="500"
+        				width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_2',
                     title: 'Live Stream (shroud)',
-                    image: 'others/Twitch-1440.webp',
+                    image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=shroud&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/shroud/chat?parent=cipher95.github.io"
-        height="500"
-        width="100%">
-</iframe>
+        				height="500"
+        				width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_3',
                     title: 'Live Stream (TimTheTatman)',
-                    image: 'others/Twitch-1440.webp',
+                    image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=timthetatman&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/timthetatman/chat?parent=cipher95.github.io"
-        height="500"
-        width="100%">
-</iframe>
+        				height="500"
+        				width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_4',
                     title: 'Live Stream (TenZ)',
-                    image: 'others/Twitch-1440.webp',
+                    image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=tenz&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/tenz/chat?parent=cipher95.github.io"
-        height="500"
-        width="100%">
-</iframe>
+        				height="500"
+        				width="100%">
+						</iframe>
                     `
                 }
             ]
@@ -86,26 +86,26 @@
     
 
     /**
-     * Builds and sets up the interactive content for the 'Others' page.
-     * @param {object} othersData - The 'others' data object from pageData.
+     * Builds and sets up the interactive content for the 'Streams' page.
+     * @param {object} streamsData - The 'streams' data object from pageData.
      */
-    function setupOthersPage(othersData) {
-        const displayArea = document.getElementById('others-display-area');
-        if (!displayArea || !othersData.items || othersData.items.length === 0) return;
+    function setupStreamsPage(streamsData) {
+        const displayArea = document.getElementById('streams-display-area');
+        if (!displayArea || !streamsData.items || streamsData.items.length === 0) return;
 
-        const navButtonsHTML = othersData.items.map((item, index) =>
-            `<button class="others-nav-btn ${index === 0 ? 'active' : ''}" data-item-id="${item.id}">${item.title}</button>`
+        const navButtonsHTML = streamsData.items.map((item, index) =>
+            `<button class="streams-nav-btn ${index === 0 ? 'active' : ''}" data-item-id="${item.id}">${item.title}</button>`
         ).join('');
 
-        const firstItem = othersData.items[0];
+        const firstItem = streamsData.items[0];
 
         const contentHTML = `
-            <div class="others-nav-container">
+            <div class="streams-nav-container">
                 ${navButtonsHTML}
             </div>
-            <div class="others-content-display">
+            <div class="streams-content-display">
                 
-                <div id="others-item-description" class="others-content-text">
+                <div id="streams-item-description" class="streams-content-text">
                     ${firstItem.description}
                 </div>
             </div>
@@ -114,14 +114,14 @@
         displayArea.innerHTML = contentHTML;
 
 		
-        const navButtons = displayArea.querySelectorAll('.others-nav-btn');
+        const navButtons = displayArea.querySelectorAll('.streams-nav-btn');
         navButtons.forEach(button => {
             button.addEventListener('click', () => {
                 const itemId = button.getAttribute('data-item-id');
-                const itemData = othersData.items.find(i => i.id === itemId);
+                const itemData = streamsData.items.find(i => i.id === itemId);
                 if (!itemData) return;
 			
-                document.getElementById('others-item-description').innerHTML = itemData.description;
+                document.getElementById('streams-item-description').innerHTML = itemData.description;
 
                 navButtons.forEach(btn => btn.classList.remove('active'));
                 button.classList.add('active');
@@ -150,10 +150,10 @@
             contentHTML = data.content;
         }
 
-        // OTHERS PAGE
-        else if (pageKey === 'others') {
+        // STREAMS PAGE
+        else if (pageKey === 'streams') {
             contentHTML = `
-                <div id="others-display-area"></div>
+                <div id="streams-display-area"></div>
             `;
         }
 
@@ -174,8 +174,8 @@
         contentArea.innerHTML = html;
 
         // setup interactive section
-        if (pageKey === 'others') {
-            setupOthersPage(data);
+        if (pageKey === 'streams') {
+            setupStreamsPage(data);
         }
 
         contentArea.classList.remove('fade-out');
