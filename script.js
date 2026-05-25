@@ -31,9 +31,9 @@
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=20xxpo&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/20xxpo/chat?parent=cipher95.github.io"
-height="500"
-width="100%">
-</iframe>
+						height="500"
+						width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_2',
@@ -42,9 +42,9 @@ width="100%">
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=shroud&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/shroud/chat?parent=cipher95.github.io"
-height="500"
-width="100%">
-</iframe>
+						height="500"
+						width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_3',
@@ -53,9 +53,9 @@ width="100%">
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=timthetatman&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/timthetatman/chat?parent=cipher95.github.io"
-height="500"
-width="100%">
-</iframe>
+						height="500"
+						width="100%">
+						</iframe>
                     `
                 },{
                     id: 'Live_Stream_4',
@@ -64,9 +64,9 @@ width="100%">
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=tenz&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/tenz/chat?parent=cipher95.github.io"
-height="500"
-width="100%">
-</iframe>
+						height="500"
+						width="100%">
+						</iframe>
                     `
                 }
             ]
