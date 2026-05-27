@@ -80,7 +80,7 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_5',
+                    id: 'Live_Stream_6',
                     title: 'Live Stream (easportsfc)',
                     image: 'Twitch-1440.webp',
                     description: `
@@ -91,7 +91,7 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_6',
+                    id: 'Live_Stream_7',
                     title: 'Live Stream (TenZ)',
                     image: 'Twitch-1440.webp',
                     description: `
