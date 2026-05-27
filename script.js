@@ -37,6 +37,17 @@
                     `
                 },{
                     id: 'Live_Stream_2',
+                    title: 'Live Stream (Evo)',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=evo&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/evo/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
+                    id: 'Live_Stream_3',
                     title: 'Live Stream (shroud)',
                     image: 'Twitch-1440.webp',
                     description: `
@@ -47,7 +58,7 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_3',
+                    id: 'Live_Stream_4',
                     title: 'Live Stream (TimTheTatman)',
                     image: 'Twitch-1440.webp',
                     description: `
@@ -58,7 +69,29 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_4',
+                    id: 'Live_Stream_5',
+                    title: 'Live Stream (summit1g)',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=summit1g&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/summit1g/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
+                    id: 'Live_Stream_5',
+                    title: 'Live Stream (easportsfc)',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=easportsfc&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/easportsfc/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
+                    id: 'Live_Stream_6',
                     title: 'Live Stream (TenZ)',
                     image: 'Twitch-1440.webp',
                     description: `
