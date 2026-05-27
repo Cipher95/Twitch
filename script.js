@@ -81,6 +81,17 @@
                     `
                 },{
                     id: 'Live_Stream_6',
+                    title: 'Live Stream (Ninja)',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=ninja&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/ninja/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
+                    id: 'Live_Stream_7',
                     title: 'Live Stream (easportsfc)',
                     image: 'Twitch-1440.webp',
                     description: `
@@ -91,7 +102,7 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_7',
+                    id: 'Live_Stream_8',
                     title: 'Live Stream (TenZ)',
                     image: 'Twitch-1440.webp',
                     description: `
