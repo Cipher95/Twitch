@@ -7,7 +7,6 @@
             image: "Twitch-1440.webp",
             content: `
                 <p>Twitch is the world's leading live streaming platform for gamers, creators, and communities. Watch live gameplay, esports tournaments, music performances, creative content, and interactive broadcasts from streamers around the globe. Join the chat, follow your favorite creators, and become part of the live entertainment experience.
-
 		</p>
                 
             `
