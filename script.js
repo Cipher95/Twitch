@@ -39,6 +39,18 @@
 						</iframe>
                     `
                 },{
+                    id: 'thegameawards',
+                    title: 'thegameawards',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=thegameawards&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/thegameawards/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },
+				{
                     id: 'shroud',
                     title: 'shroud',
                     image: 'Twitch-1440.webp',
@@ -83,18 +95,6 @@
 						</iframe>
                     `
                 },{
-                    id: 'thegameawards',
-                    title: 'thegameawards',
-                    image: 'Twitch-1440.webp',
-                    description: `
-                        <iframe src="https://player.twitch.tv/?channel=thegameawards&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
-						<iframe src="https://www.twitch.tv/embed/thegameawards/chat?parent=cipher95.github.io"
-						height="500"
-						width="100%">
-						</iframe>
-                    `
-                },
-				{
                     id: 'easportsfc',
                     title: 'easportsfc',
                     image: 'Twitch-1440.webp',
