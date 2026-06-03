@@ -17,8 +17,8 @@
             items: [
                 
                 {
-                    id: 'Live_Stream_1',
-                    title: 'Live Stream (20XXpo)',
+                    id: '20xxpo',
+                    title: '20XXpo',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=20xxpo&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -28,8 +28,8 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_2',
-                    title: 'Live Stream (Evo)',
+                    id: 'evo',
+                    title: 'Evo',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=evo&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -39,8 +39,8 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_3',
-                    title: 'Live Stream (shroud)',
+                    id: 'shroud',
+                    title: 'shroud',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=shroud&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -50,8 +50,8 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_4',
-                    title: 'Live Stream (TimTheTatman)',
+                    id: 'timthetatman',
+                    title: 'TimTheTatman',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=timthetatman&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -61,8 +61,8 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_5',
-                    title: 'Live Stream (summit1g)',
+                    id: 'summit1g',
+                    title: 'summit1g',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=summit1g&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -72,8 +72,8 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_6',
-                    title: 'Live Stream (Ninja)',
+                    id: 'ninja',
+                    title: 'Ninja',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=ninja&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -83,8 +83,20 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_7',
-                    title: 'Live Stream (easportsfc)',
+                    id: 'thegameawards',
+                    title: 'thegameawards',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=thegameawards&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/thegameawards/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },
+				{
+                    id: 'easportsfc',
+                    title: 'easportsfc',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=easportsfc&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
@@ -94,12 +106,23 @@
 						</iframe>
                     `
                 },{
-                    id: 'Live_Stream_8',
-                    title: 'Live Stream (TenZ)',
+                    id: 'tenz',
+                    title: 'TenZ',
                     image: 'Twitch-1440.webp',
                     description: `
                         <iframe src="https://player.twitch.tv/?channel=tenz&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
 						<iframe src="https://www.twitch.tv/embed/tenz/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
+                    id: 'kingsleague',
+                    title: 'kingsleague',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=kingsleague&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<iframe src="https://www.twitch.tv/embed/kingsleague/chat?parent=cipher95.github.io"
 						height="500"
 						width="100%">
 						</iframe>
