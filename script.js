@@ -126,6 +126,18 @@
 						</iframe>
                     `
                 },{
+                    id: 'sykkuno',
+                    title: 'Sykkuno',
+                    image: 'Twitch-1440.webp',
+                    description: `
+                        <iframe src="https://player.twitch.tv/?channel=sykkuno&parent=cipher95.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="100%"></iframe>
+						<br/>
+						<iframe src="https://www.twitch.tv/embed/sykkuno/chat?parent=cipher95.github.io"
+						height="500"
+						width="100%">
+						</iframe>
+                    `
+                },{
                     id: 'kingsleague',
                     title: 'kingsleague',
                     image: 'Twitch-1440.webp',
